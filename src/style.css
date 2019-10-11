@@ -57,11 +57,12 @@ ul{
     height:auto;
     width:100%;
     text-align:center;
+}
     ul {
         text-align: center;
         position:relative;
     }
-}
+
 
 #social_media li {
     display:inline-block;
