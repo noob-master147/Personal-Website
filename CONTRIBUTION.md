@@ -12,6 +12,6 @@ Follow the steps below to start contributing:
 
 4. Push your code to your branch.
 
-5. Finally, open a PR against the `master` branch of this repository.
+5. Finally, open a PR against the `buffer` branch of this repository.
 
 Good luck!
