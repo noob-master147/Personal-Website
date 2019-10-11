@@ -43,7 +43,6 @@ ul{
 }
 
 .box li{
-    display: inline;
     margin: 6px;
     list-style: none;
 }
@@ -52,4 +51,25 @@ ul{
     color: white;
     text-decoration: none;
     font-size: 60px;
+}
+
+
+#social_media {
+	height: auto;
+    width: 100%;
+    text-align: center;
+    ul {
+    	text-align: center;     
+        position: relative;
+    }
+}
+
+#social_media li {
+	display:inline-block;
+}
+
+
+.fa{
+	padding:20px;
+	color: rgb(255,255,255,0.5); 
 }
