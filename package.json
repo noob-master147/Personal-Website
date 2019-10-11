@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/noob-master147/Personal-Website#readme",
   "dependencies": {
+    "particlesjs": "^2.2.3",
     "website-scraper": "^4.2.0"
   }
 }
