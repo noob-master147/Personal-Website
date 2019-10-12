@@ -1,5 +1,6 @@
 window.onload = function() {
     Particles.init({
-      selector: '.background'
+      selector: '.background',
+      maxParticles: 600,
     });
   };
