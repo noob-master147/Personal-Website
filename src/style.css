@@ -29,6 +29,7 @@ body{
     width: 200px;
     height: 200px;
 }
+
 .box h1{
     font-size: 40px;
     letter-spacing: 4px;
@@ -95,10 +96,12 @@ ul{
     list-style-type: none;
     padding: 0.5rem;
     overflow: hidden;
+    float: right;
 }
 
 .navbar li {
     float: right;
+    padding: 14px 16px;
 }
 
 .navbar a {
@@ -108,11 +111,19 @@ ul{
     padding: 14px 16px;
     text-decoration: none;
     transition: all 0.5s;
+    font-family: 'Centuary Gothic', sans-serif;
+    font-size: 1.25em;
 }
 
 .navbar li a:hover {
     color: orange;
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color:transparent;
+}
+
 
 .sticky {
     position: fixed;
@@ -123,4 +134,16 @@ ul{
 .logo {
     float: left;
     margin: 0.5rem;
+}
+
+/*  Content Center */
+.row{
+    display:flex;
+    margin:0;
+}
+
+
+/* nav mobile style */
+.navbar .navbar-toggle .icon-bar {
+    background-color: white;
 }
