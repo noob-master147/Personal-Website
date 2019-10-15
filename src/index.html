@@ -11,6 +11,21 @@
 </head>
 
 <body>
+    <nav class="navbar sticky">
+        <a class="logo" href="#">LogoGoesHere™</a>
+        <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Medium</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="javascript:void(0);" class="icon-menu" onclick="extendResponsiveMenu()">
+                <i class="fa fa-bars"></i>
+            </a></li>
+        </ul>
+    </nav>
     <div class="box" id="particles-js">
         <img src="../images/profile.png" alt="" class="boxImg" width="250">
         <h1>Divyansh Khandelwal</h1>
@@ -33,6 +48,16 @@
     <canvas class="background"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 
+    <script>
+        function extendResponsiveMenu() {
+            var navbar = document.querySelector("nav.navbar");
+            if (!navbar.classList.contains("responsive")) {
+                navbar.classList.add("responsive");
+            } else {
+                navbar.classList.remove("responsive");
+            }
+        }
+    </script>
 </body>
 
 </html>
