@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Divyansh Khandelwal</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
 </head>
 
 <body>
-    <nav class="navbar sticky">
+    <!-- <nav class="navbar sticky">
         <a class="logo" href="#">LogoGoesHere™</a>
         <ul>
             <li><a href="#">GitHub</a></li>
@@ -25,29 +26,53 @@
                 <i class="fa fa-bars"></i>
             </a></li>
         </ul>
+    </nav> -->
+    <nav class="navbar sticky navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#movelmenu" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a class="logo" href="#">LogoGoesHere™</a>  
+            </div>
+            <div class="collapse navbar-collapse" id="movelmenu">
+                <ul class="nav navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">GitHub</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Medium</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blogs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="box" id="particles-js">
-        <img src="../images/profile.png" alt="" class="boxImg" width="250">
-        <h1>Divyansh Khandelwal</h1>
-        <h5>Web Developer</h5>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Impedit a at enim neque cupiditate? Quisquam voluptatum porro praesentium est dolorum autem odio nihil
-            minima.
-            Eaque, voluptas! Repudiandae illum animi, necessitatibus, ducimus nam consequatur optio minima debitis,
-            facere neque saepe.
-            Quod quam porro veritatis quaerat tempora voluptas nulla ipsum, harum ab?
-        </p>
-        <h5>Connect Me</h5>
-        <ul id="social_media">
-            <li><a href="#"><i class="fa fa-facebook-f fa-2x"></i></a></li>
-            <li><a href="#"><i class="fa fa-github fa-2x"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
-        </ul>
-    </div>
+        <div class="box id="particles-js">
+            <img src="../images/profile.png" alt="" class="boxImg" width="250">
+            <h1>Divyansh Khandelwal</h1>
+            <h5>Web Developer</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Impedit a at enim neque cupiditate? Quisquam voluptatum porro praesentium est dolorum autem odio nihil
+                minima.
+                Eaque, voluptas! Repudiandae illum animi, necessitatibus, ducimus nam consequatur optio minima debitis,
+                facere neque saepe.
+                Quod quam porro veritatis quaerat tempora voluptas nulla ipsum, harum ab?
+            </p>
+            <h5>Connect Me</h5>
+            <ul id="social_media">
+                <li><a href="#"><i class="fa fa-facebook-f fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-github fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
     <script src="particles.js"></script>
     <canvas class="background"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-
+    
     <script>
         function extendResponsiveMenu() {
             var navbar = document.querySelector("nav.navbar");
