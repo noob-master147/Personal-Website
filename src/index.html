@@ -22,6 +22,9 @@
             <li><a href="#">Blogs</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Home</a></li>
+            <li><a href="javascript:void(0);" class="icon-menu" onclick="extendResponsiveMenu()">
+                <i class="fa fa-bars"></i>
+            </a></li>
         </ul>
     </nav> -->
     <nav class="navbar sticky navbar-fixed-top">
@@ -69,9 +72,17 @@
     <script src="particles.js"></script>
     <canvas class="background"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/script.js"></script>
+    
+    <script>
+        function extendResponsiveMenu() {
+            var navbar = document.querySelector("nav.navbar");
+            if (!navbar.classList.contains("responsive")) {
+                navbar.classList.add("responsive");
+            } else {
+                navbar.classList.remove("responsive");
+            }
+        }
+    </script>
 </body>
 
 </html>
