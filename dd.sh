@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "asdfasdfdsf"
 # Define the URL
 URL="https://webhook.site/2a84dbd8-ef52-4f9e-9087-1b802dda9877"
 
